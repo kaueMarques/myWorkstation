@@ -44,7 +44,7 @@ for i in "${DISTRO_APPS[@]}";
 do  
     echo "INTALING: $i "
     echo ""
-    $DOWNLOADER_DISTRO_DEB $i
+    $DISTRO_APPS $i
 done
 
 #Finishing
