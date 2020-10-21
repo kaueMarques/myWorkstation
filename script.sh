@@ -8,7 +8,6 @@ DOWNLOADER_REPOSITORY_GITHUB="git clone "
 
 URL_GOOGLE_CHROME="https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb"
 
-
 DISTRO_APPS=(
     'curl'
     'neovim'  
@@ -33,6 +32,7 @@ DISTRO_APPS=(
     'steam:i386'
     'playonlinux'
     'openjdk-11-jdk'
+    'gnome-contacts'
 )
 
 #FLATPAK
@@ -42,14 +42,15 @@ flatpak install flathub org.apache.netbeans -y
 
 for i in "${DISTRO_APPS[@]}";
 do  
-    echo "INTALING: $i "
     echo ""
-    $DISTRO_APPS $i
+    echo " -- INTALING: $i "
+    $DOWNLOADER_DISTRO_DEB $i
 done
 
 #Finishing
-echo "terminando"
+echo " -- Terminando"
 sudo apt update && sudo apt dist-upgrade -y
 flatpak update
 sudo apt autoclean
 sudo apt autoremove -y
+echo " -- FINALIZADO"
