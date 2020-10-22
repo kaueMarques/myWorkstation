@@ -11,5 +11,5 @@ for i in "${FLATPAK_APPS[@]}";
 do
     echo ""
     echo " --- INTALING: $i "
-    $DOWNLOADER $i -y
+    $DOWNLOADER $i
 done
