@@ -19,7 +19,7 @@ sudo bash ./sources/flatpak_apps.sh
 sudo bash ./sources/python_apps.sh
 
 #Moving configs files
-mv .zshrc /$HOME
+cp ./configs/.zshrc /$HOME
 
 #################### Finishing #################### 
 echo ''
