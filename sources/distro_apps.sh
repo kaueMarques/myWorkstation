@@ -10,6 +10,7 @@ APPS=(
     'npm'
     'python3'
     'python3-pip'
+    'jupyter-notebook'
     'gnome-boxes'
     'git'
     'atom'
