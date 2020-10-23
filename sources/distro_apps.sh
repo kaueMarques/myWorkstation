@@ -20,6 +20,7 @@ APPS=(
     'google-chrome-stable'
     'mariadb-server'
     'mariadb-client'
+    'nginx'
 
     #Others
     'firefox'
