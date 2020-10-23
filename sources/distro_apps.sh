@@ -21,6 +21,7 @@ APPS=(
     'mariadb-server'
     'mariadb-client'
     'nginx'
+    'php7.4'
 
     #Others
     'firefox'
