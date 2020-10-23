@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-DOWNLOADER='pip3 install '
+DOWNLOADER='sudo pip3 install '
 
 APPS=(
     'youtube-dl'
