@@ -10,6 +10,7 @@ APPS=(
     'com.spotify.Client'
     'org.telegram.desktop'
     'com.discordapp.Discord'
+    'com.valvesoftware.Steam'
 )
 
 for i in "${APPS[@]}";
