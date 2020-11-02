@@ -38,6 +38,7 @@ APPS=(
     'playonlinux'
     'gnome-contacts'
     'snapd'
+    'timeshift'
 
     #Customization
     'gnome-tweak-tool'
