@@ -11,11 +11,12 @@ APPS=(
     'org.telegram.desktop'
     'com.discordapp.Discord'
     'com.valvesoftware.Steam'
+    'com.github.calo001.fondo'
 )
 
 for i in "${APPS[@]}";
 do
     echo ""
-    echo " --- INTALING: $i "
+    echo " --- INSTALLING: $i "
     $DOWNLOADER $i -y
 done
