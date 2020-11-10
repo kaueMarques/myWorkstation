@@ -8,9 +8,9 @@ APPS=(
     'pandas'
 )
 
-for i in "${FLATPAK_APPS[@]}";
+for i in "${APPS[@]}";
 do
     echo ""
-    echo " --- INTALING: $i "
+    echo " --- ISNTALLING: $i "
     $DOWNLOADER $i
 done
