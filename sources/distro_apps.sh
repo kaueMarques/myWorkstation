@@ -50,10 +50,10 @@ APPS=(
 )
 
 
-echo "Intaling your Distro apps"
+echo "Installing your Distro apps"
 for i in "${APPS[@]}";
 do  
     echo ""
-    echo " --- INTALING: $i "
+    echo " --- INSTALING: $i "
     $DOWNLOADER $i
 done
