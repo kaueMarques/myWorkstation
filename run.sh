@@ -14,16 +14,18 @@ mkdir $HOME/_ti $HOME/_ti/sudy $HOME/_ti/projects
 
 
 #################### Instalation and Configs #################### 
+
+#SOURCES 
 sudo bash ./sources/distro_apps.sh
 sudo bash ./sources/flatpak_apps.sh
 sudo bash ./sources/python_apps.sh
 
 for i in ./sources/appScripts/*.sh; 
 do 
+echo "You're running SCRIPT: $i"
 sudo bash $i 
 done
 
-sudo bash ./sources/appScripts
 
 #Moving configs files
 cp ./configs/.zshrc $HOME && zsh
