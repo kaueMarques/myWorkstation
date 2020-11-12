@@ -18,8 +18,15 @@ sudo bash ./sources/distro_apps.sh
 sudo bash ./sources/flatpak_apps.sh
 sudo bash ./sources/python_apps.sh
 
+for i in ./sources/appScripts/*.sh; 
+do 
+sudo bash $i 
+done
+
+sudo bash ./sources/appScripts
+
 #Moving configs files
-cp ./configs/.zshrc $HOME
+cp ./configs/.zshrc $HOME && zsh
 
 #################### Finishing #################### 
 echo ''
