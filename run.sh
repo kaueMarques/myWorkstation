@@ -27,7 +27,6 @@ echo "You're running SCRIPT: $i"
 sudo bash $i 
 done
 
-
 #Moving configs files
 cp ./configs/.zshrc $HOME && zsh
 
