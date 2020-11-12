@@ -20,6 +20,7 @@ sudo bash ./sources/distro_apps.sh
 sudo bash ./sources/flatpak_apps.sh
 sudo bash ./sources/python_apps.sh
 
+#Drop your scripts in sources/appScripts
 for i in ./sources/appScripts/*.sh; 
 do 
 echo "You're running SCRIPT: $i"
