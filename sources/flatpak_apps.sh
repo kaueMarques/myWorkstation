@@ -12,6 +12,7 @@ APPS=(
     'com.discordapp.Discord'
     'com.valvesoftware.Steam'
     'com.github.calo001.fondo'
+    'com.getpostman.Postman'
 )
 
 for i in "${APPS[@]}";
