@@ -18,10 +18,7 @@ APPS=(
     'openjdk-11-jdk'
     'docker.io'
     'google-chrome-stable'
-    'mariadb-server'
-    'mariadb-client'
-    'php7.4'
-    'nginx'
+ 
 
     #Others
     'firefox'
