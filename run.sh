@@ -21,11 +21,6 @@ sudo bash ./sources/flatpak_apps.sh
 sudo bash ./sources/python_apps.sh
 
 #Drop your scripts in sources/appScripts
-for i in ./sources/appScripts/*.sh; 
-do 
-echo "You're running SCRIPT: $i"
-sudo bash $i 
-done
 
 #Moving configs files
 cp ./configs/.zshrc $HOME && zsh
