@@ -1,29 +1,27 @@
 #!/usr/bin/env bash
 
 echo ' --- This 1st version was made for POP OS '
-echo ' --- Updating your OS'
+echo ' --- Updating your OS'    
 
 #################### Base Commands #################### 
-
 sudo rm /var/lib/dpkg/lock-frontend
 sudo rm /var/cache/apt/archives/lock
 sudo apt -y update && sudo apt -y upgrade
 
 #################### Making Paths #################### 
-mkdir $HOME/_ti $HOME/_ti/sudy $HOME/_ti/projects
+mkdir $HOME/_ti && mkdir $HOME/_ti/sudy && mkdir $HOME/_ti/projects
 
 
 #################### Instalation and Configs #################### 
 
 #SOURCES 
-sudo bash ./sources/distro_apps.sh
-sudo bash ./sources/flatpak_apps.sh
-sudo bash ./sources/python_apps.sh
+sudo bash ./sources/*.sh
+sudo bash ./sources/appScripts/*.sh
 
-#Drop your scripts in sources/appScripts
+#Droping your scripts in sources/appScripts
 
 #Moving configs files
-cp ./configs/.zshrc $HOME && zsh
+cp $HOME/configs/.zshrc $HOME  && zsh
 
 #################### Finishing #################### 
 echo ''

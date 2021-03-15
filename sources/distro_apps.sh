@@ -17,7 +17,6 @@ APPS=(
     'atom'
     'zsh'
     'openjdk-11-jdk'
-    'docker.io'
     'google-chrome-stable'
  
 
@@ -32,7 +31,6 @@ APPS=(
     'playonlinux'
     'gnome-contacts'
     'snapd'
-    'timeshift'
 
     #Customization
     'gnome-tweak-tool'
