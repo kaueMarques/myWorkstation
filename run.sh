@@ -15,6 +15,7 @@ mkdir $HOME/_ti && mkdir $HOME/_ti/sudy && mkdir $HOME/_ti/projects
 #################### Instalation and Configs #################### 
 
 SOURCES=(
+    #Put your repo script here
     'distro_apps'
     'flatpak_apps'
     'python_apps'
