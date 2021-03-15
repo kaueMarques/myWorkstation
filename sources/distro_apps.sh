@@ -4,7 +4,6 @@ DOWNLOADER="sudo apt install -y "
 
 APPS=(
     #Development
-    'code'
     'neovim'  
     'nodejs'
     'npm'
