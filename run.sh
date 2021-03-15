@@ -14,7 +14,6 @@ mkdir $HOME/_ti && mkdir $HOME/_ti/sudy && mkdir $HOME/_ti/projects
 
 #################### Instalation and Configs #################### 
 
-#SOURCES 
 SOURCES=(
     'distro_apps'
     'flatpak_apps'
