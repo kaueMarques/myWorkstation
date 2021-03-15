@@ -19,12 +19,15 @@ SOURCES=(
     'distro_apps'
     'flatpak_apps'
     'python_apps'
-    'appScripts/oh-my-zsh'
     
 
     #Put scrips here 
     'appScripts/yarn'
     'appScripts/terraform'
+
+
+    #zsh is the last script to run
+    'appScripts/oh-my-zsh'
 )
 
 for i in "${SOURCES[@]}";
