@@ -20,7 +20,11 @@ SOURCES=(
     'flatpak_apps'
     'python_apps'
     'appScripts/oh-my-zsh'
+    
+
+    #Put scrips here 
     'appScripts/yarn'
+    'appScripts/terraform'
 )
 
 for i in "${SOURCES[@]}";
