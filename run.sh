@@ -21,7 +21,7 @@ SOURCES=(
     'python_apps'
     
 
-    #Put scrips here 
+    #Put scripts here 
     'appScripts/yarn'
     'appScripts/terraform'
 
