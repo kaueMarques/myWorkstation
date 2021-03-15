@@ -19,7 +19,7 @@ SOURCES=(
     'distro_apps'
     'flatpak_apps'
     'python_apps'
-    
+
 
     #Put scripts here 
     'appScripts/yarn'
