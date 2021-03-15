@@ -21,3 +21,4 @@ do
     echo " --- INSTALLING: $i "
     $DOWNLOADER $i -y
 done
+#end line

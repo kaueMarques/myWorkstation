@@ -32,12 +32,10 @@ APPS=(
     'gnome-contacts'
     'snapd'
 
+
     #Customization
     'gnome-tweak-tool'
     'breeze-cursor-theme'
-    'yaru-theme-gnome-shell'
-    'yaru-theme-gtk'
-    'yaru-theme-icon'
     'yaru-theme-sound'
 )
 
@@ -49,3 +47,4 @@ do
     echo " --- INSTALING: $i "
     $DOWNLOADER $i
 done
+#end line
