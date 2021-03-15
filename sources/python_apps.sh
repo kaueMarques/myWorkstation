@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+echo ""
+echo "############### PYTHON APPS ###############"
+
 DOWNLOADER='sudo pip3 install '
 
 APPS=(

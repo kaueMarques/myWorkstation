@@ -15,10 +15,18 @@ mkdir $HOME/_ti && mkdir $HOME/_ti/sudy && mkdir $HOME/_ti/projects
 #################### Instalation and Configs #################### 
 
 #SOURCES 
-sudo bash ./sources/*.sh
-sudo bash ./sources/appScripts/*.sh
+SOURCES=(
+    'distro_apps'
+    'flatpak_apps'
+    'python_apps'
+    'appScripts/oh-my-zsh'
+    'appScripts/yarn'
+)
 
-#Droping your scripts in sources/appScripts
+for i in "${SOURCES[@]}";
+do
+    sudo bash  ./sources/$i.sh 
+done
 
 #Moving configs files
 cp $HOME/configs/.zshrc $HOME  && zsh

@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+echo ""
+echo "############### DISTOS APPS ###############"
+
 DOWNLOADER="sudo apt install -y "
 
 APPS=(
@@ -36,6 +39,9 @@ APPS=(
     'gnome-tweak-tool'
     'breeze-cursor-theme'
     'yaru-theme-sound'
+
+    
+    
 )
 
 
